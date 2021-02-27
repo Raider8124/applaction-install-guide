@@ -13,6 +13,10 @@ if answer == "yes":
         print("git clone https://aur.archlinux.org/yay.git")
         print("cd yay")
         print("makepkg -si")
+    elif anwser == "gtop":
+        print("sudo pacman -S gtop  ")
+    elif anwser == "alarcitty":
+        print("sudo pacman -S alacritty")
     elif anwser == "i3":
         print("sudo pacman -S i3 feh dmenu rofi")
     elif anwser == "nautilus":
@@ -23,22 +27,29 @@ if answer == "yes":
         print("sudo pacman -S neovim")
     elif anwser == "discord":
         print("sudo pacman -S discord dunst")
+    elif anwser == "discord":
+        print("sudo pacman -S hexchat")
     elif anwser == "openvpn":
         print("sudo pacman -S openvpn")
     elif anwser == "steam":
         print("sudo pacman -S steam")
     elif anwser == "minecraft":
         print("yay -S minecraft-launcher")
+    elif anwser == "wine":
+        print("yay -S wine")
+    elif anwser == "lutris":
+        print("yay -S lutris")
     elif anwser == "list":
         print("Photo Editing - gimp << ")
         print("3D Modeling - blender << ")
-        print("Utililty - git - yay << ")
+        print("Utililty - git - yay - gtop << ")
+        print("Termnial Emulator - alacritty <<")
         print("File Manager - nautilus << ")
         print("Window Manager - i3 << ")
         print("Email Client - thunderbird << ")
         print("Text Editor - neovim << ")
-        print("Social Media - discord << ")
-        print("Games - steam - minecraft")
+        print("Social Media - discord - hexchat << ")
+        print("Games - steam - minecraft - wine - lutris << ")
         print("Virtual Private Network - openvpn << ")
 else:
     print("Ok Bye")
