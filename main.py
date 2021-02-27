@@ -18,6 +18,8 @@ if answer == "yes":
         print("sudo pacman -S neovim")
     elif anwser == "discord":
         print("sudo pacman -S discord dunst")
+    elif anwser == "openvpn":
+        print("sudo pacman -S openvpn")
     elif anwser == "list":
         print("Photo Editing - gimp << ")
         print("3D Modeling - blender << ")
@@ -26,7 +28,8 @@ if answer == "yes":
         print("Window Manager - i3 << ")
         print("Email Client - thunderbird << ")
         print("Text Editor - neovim << ")
-        print("Social Media - discord")
+        print("Social Media - discord << ")
+        print("Virtual Private Network - openvpn << ")
 else:
     print("Ok Bye")
     exit()
