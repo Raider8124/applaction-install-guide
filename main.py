@@ -8,6 +8,11 @@ if answer == "yes":
         print("sudo pacman -S blender")
     elif anwser == "git":
         print("sudo pacman -S git")
+    elif anwser == "yay":
+        print("pacman -S --needed git base-devel")
+        print("git clone https://aur.archlinux.org/yay.git")
+        print("cd yay")
+        print("makepkg -si")
     elif anwser == "i3":
         print("sudo pacman -S i3 feh dmenu rofi")
     elif anwser == "nautilus":
@@ -20,15 +25,20 @@ if answer == "yes":
         print("sudo pacman -S discord dunst")
     elif anwser == "openvpn":
         print("sudo pacman -S openvpn")
+    elif anwser == "steam":
+        print("sudo pacman -S steam")
+    elif anwser == "minecraft":
+        print("yay -S minecraft-launcher")
     elif anwser == "list":
         print("Photo Editing - gimp << ")
         print("3D Modeling - blender << ")
-        print("Utililty - git << ")
+        print("Utililty - git - yay << ")
         print("File Manager - nautilus << ")
         print("Window Manager - i3 << ")
         print("Email Client - thunderbird << ")
         print("Text Editor - neovim << ")
         print("Social Media - discord << ")
+        print("Games - steam - minecraft")
         print("Virtual Private Network - openvpn << ")
 else:
     print("Ok Bye")
