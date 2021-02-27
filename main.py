@@ -14,6 +14,10 @@ if answer == "yes":
         print("sudo pacman -S nautilus")
     elif anwser == "thunderbird":
         print("sudo pacman -S thunderbird")
+    elif anwser == "neovim":
+        print("sudo pacman -S neovim")
+    elif anwser == "discord":
+        print("sudo pacman -S discord dunst")
     elif anwser == "list":
         print("Photo Editing - gimp << ")
         print("3D Modeling - blender << ")
@@ -21,6 +25,8 @@ if answer == "yes":
         print("File Manager - nautilus << ")
         print("Window Manager - i3 << ")
         print("Email Client - thunderbird << ")
+        print("Text Editor - neovim << ")
+        print("Social Media - discord")
 else:
     print("Ok Bye")
     exit()
