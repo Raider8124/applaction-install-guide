@@ -27,8 +27,8 @@ if answer == "yes":
         print("sudo pacman -S neovim")
     elif anwser == "discord":
         print("sudo pacman -S discord dunst")
-    elif anwser == "discord":
-        print("sudo pacman -S hexchat")
+    elif anwser == "xchat":
+        print("yay -S xchat")
     elif anwser == "openvpn":
         print("sudo pacman -S openvpn")
     elif anwser == "steam":
@@ -48,7 +48,7 @@ if answer == "yes":
         print("Window Manager - i3 << ")
         print("Email Client - thunderbird << ")
         print("Text Editor - neovim << ")
-        print("Social Media - discord - hexchat << ")
+        print("Social Media - discord - xchat << ")
         print("Games - steam - minecraft - wine - lutris << ")
         print("Virtual Private Network - openvpn << ")
 else:
